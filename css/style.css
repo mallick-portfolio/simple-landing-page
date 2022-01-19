@@ -1,0 +1,64 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+body{
+  font-family: 'DM Sans', sans-serif;
+}
+:root{
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #1E0E62;
+  --primary-bg-color: #FFFFFF;
+  --secondary-bg-color: #482BE7;
+}
+
+/* ========================= */
+  /* Utilities CSS */
+/* ========================= */
+a{
+  text-decoration: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+/* ========================= */
+  /* Header Area CSS */
+/* ========================= */
+.header .navbar {
+  padding: 30px 0;
+}
+.header .navbar-light .navbar-nav .nav-link{
+  color: var(--secondary-font-color);
+  font-size: 16px;
+}
+.header .navbar-light .navbar-nav .nav-item {
+  margin-left: 40px;
+}
+.header .sign-in-btn {
+  display: inline-block;
+  color: var(--secondary-font-color);
+  margin-right: 28px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.header .sign-up-btn{
+  background: var(--secondary-bg-color);
+  padding: 9px 22px;
+  border-radius: 30px;
+  color: var(--primary-font-color);
+}
+
+/* ========================= */
+  /* Hero Area CSS */
+/* ========================= */
+.hero .learn-more-btn {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-font-color);
+  padding: 17px 33px;
+  border: 0;
+}
